@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kismis Sorting Machine Form</title>
+</head>
+<body>
+    <h1>Kismis Sorting Machine Form</h1>
+    <form action="submit.php" method="post">
+        <h2>Machine Details</h2>
+        <label for="machine_name">Machine Name:</label>
+        <input type="text" id="machine_name" name="machine_name" required><br><br>
+        
+        <label for="model_number">Model Number:</label>
+        <input type="text" id="model_number" name="model_number" required><br><br>
+        
+        <label for="manufacturer">Manufacturer:</label>
+        <input type="text" id="manufacturer" name="manufacturer"><br><br>
+        
+        <label for="purchase_date">Purchase Date:</label>
+        <input type="date" id="purchase_date" name="purchase_date"><br><br>
+        
+        <label for="installation_date">Installation Date:</label>
+        <input type="date" id="installation_date" name="installation_date"><br><br>
+        
+        <h2>Sorting Parameters</h2>
+        <label for="parameter_name">Parameter Name:</label>
+        <input type="text" id="parameter_name" name="parameter_name"><br><br>
+        
+        <label for="parameter_value">Parameter Value:</label>
+        <input type="text" id="parameter_value" name="parameter_value"><br><br>
+        
+        <h2>Sorting Results</h2>
+        <label for="total_items">Total Items:</label>
+        <input type="number" id="total_items" name="total_items"><br><br>
+        
+        <label for="sorted_items">Sorted Items:</label>
+        <input type="number" id="sorted_items" name="sorted_items"><br><br>
+        
+        <label for="defective_items">Defective Items:</label>
+        <input type="number" id="defective_items" name="defective_items"><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
